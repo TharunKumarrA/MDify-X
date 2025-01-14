@@ -80,7 +80,10 @@ def main():
 
             if markdown_content:
                 st.success("File converted successfully!")
-                st.code(markdown_content, language="markdown")
+                
+                # Use expander to display the markdown content
+                with st.expander("Click to view Markdown content"):
+                    st.code(markdown_content, language="markdown")
 
                 # Provide a download button
                 st.download_button(
@@ -100,7 +103,11 @@ def main():
                 markdown_content = convert_to_md(temp_file_name)
                 if markdown_content:
                     st.success("File converted successfully!")
-                    st.code(markdown_content, language="markdown")
+
+                    # Use expander to display the markdown content
+                    with st.expander("Click to view Markdown content"):
+                        st.code(markdown_content, language="markdown")
+                    
                     st.download_button(
                         label="Download Markdown File",
                         data=markdown_content,
