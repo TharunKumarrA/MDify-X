@@ -1,4 +1,4 @@
-# MDify-x - File to Markdown Converter
+# MDify X - File to Markdown Converter
 
 A simple Streamlit app that allows users to convert various document types into Markdown format. The app supports file uploads and URL inputs, utilizing the Docling library for document conversion.
 
