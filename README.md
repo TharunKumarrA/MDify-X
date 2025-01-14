@@ -59,11 +59,3 @@ Once the app is running:
 ## Error Handling
 
 - The app logs any errors that occur during the conversion or download process. These errors will be displayed in the Streamlit app as error messages.
-
-## Contribution
-
-Feel free to fork the repository and contribute! If you find any issues or have suggestions, open an issue or create a pull request.
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
